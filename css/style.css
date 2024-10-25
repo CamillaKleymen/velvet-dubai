@@ -1,0 +1,42 @@
+:root {
+    --red: #EB102F; 
+    --dark: #242424;
+
+}
+
+
+.bg-red {
+    background-color: var(--red);
+}
+
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+
+
+
+body {
+
+    background-image: url('../images/velvet-dubai/astronaut.png'); 
+    background-size: cover; 
+    background-position: start; 
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
