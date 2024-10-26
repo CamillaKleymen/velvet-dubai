@@ -1,6 +1,7 @@
 :root {
     --red: #EB102F; 
     --dark: #242424;
+    --light-gray: #EAEAEA;
 
 }
 
@@ -18,7 +19,9 @@
     color: var(--red);
 }
 
-
+.bg-light {
+    background-color: var(--light-gray);
+}
 
 
 body {
@@ -71,11 +74,11 @@ p {
 
 .digital-consulting {
     position: absolute;
-    bottom: 47px;
-    left: -99px;
+    bottom: 85px;
+    left: -130px;
     z-index: 2;
     color: white;
-    padding: 30px;
+    padding: 18px;
     font-weight: bold;
 }
 
