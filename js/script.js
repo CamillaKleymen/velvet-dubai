@@ -1,37 +1,22 @@
-$(document).ready(function() {
-    // Инициализация слайдера для блока с отзывами
-    $('.feedbacks').slick({
-        slidesToShow: 1,  // Один слайд на экране
+$(document).ready(function(){
+    $('.testimonial-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,  // Автоматическое пролистывание
-        autoplaySpeed: 3000,  // Интервал пролистывания
-        dots: false,  // Без точек навигации
-        arrows: true,  // Использовать стрелки
-        prevArrow: $('.paginator .prev'),  // Левая стрелка
-        nextArrow: $('.paginator .next'),  // Правая стрелка
+        prevArrow: $('.prev-arrow'),
+        nextArrow: $('.next-arrow'),
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,  // Один слайд для экранов меньше 1024px
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    adaptiveHeight: true
                 }
             }
         ]
     });
 });
-
-
-
-
-
 
 document.addEventListener('DOMContentLoaded', function() {
     // Находим все дропдауны на странице
