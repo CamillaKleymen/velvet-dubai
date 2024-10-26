@@ -32,7 +32,7 @@
 body {
     background: url('../images/velvet-dubai/astronaut.png') no-repeat center top;
     background-size: 100% 868px;
-    background-attachment: scroll; /* Фиксированная высота фона */
+    background-attachment: scroll; 
 }
 
 
@@ -47,11 +47,6 @@ body {
     /* z-index: -5; */
     margin-left: 54px;
 }
-
-/* .card {
-    position: relative;
-    z-index: 5;
-} */
 
 
 
@@ -101,19 +96,6 @@ p {
 }
 
 
-/* .contact-form-section {
-    width: 87%;
-    right: 125px;
-    top: 729%;
-    transform: translateY(50%);
-    z-index: 1;
-    padding: 2rem;
-} */
-
-/* .footer-content {
-    padding-top: 10rem;
-}  */
-
 
 .contact-form-section {
     width: 80%;
@@ -128,4 +110,5 @@ p {
 
 .footer-content {
     padding-top: 10rem;
+    /* я прописала именно эту величину здесь потому что через бутстрап через р элемент никак не получается задать нужный размер ( */
 }
