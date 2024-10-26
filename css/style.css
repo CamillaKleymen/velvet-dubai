@@ -33,6 +33,7 @@ body {
     background: url('../images/velvet-dubai/astronaut.png') no-repeat center top;
     background-size: 100% 868px;
     background-attachment: scroll; 
+    overflow-x: hidden;
 }
 
 
