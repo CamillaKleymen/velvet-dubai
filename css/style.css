@@ -2,6 +2,7 @@
     --red: #EB102F; 
     --dark: #242424;
     --light-gray: #EAEAEA;
+    --strong-dark: #272727;
 
 }
 
@@ -13,6 +14,10 @@
 
 .bg-dark {
     background-color: var(--dark);
+}
+
+.bg-strong-dark {
+    background-color: var(--strong-dark);
 }
 
 .text-red {
@@ -95,3 +100,32 @@ p {
     opacity: 0.59;
 }
 
+
+/* .contact-form-section {
+    width: 87%;
+    right: 125px;
+    top: 729%;
+    transform: translateY(50%);
+    z-index: 1;
+    padding: 2rem;
+} */
+
+/* .footer-content {
+    padding-top: 10rem;
+}  */
+
+
+.contact-form-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    top: 126px;
+    z-index: 1;
+    background-color: #f8f9fa;
+}
+
+
+.footer-content {
+    padding-top: 10rem;
+}
